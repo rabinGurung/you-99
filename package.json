@@ -12,7 +12,7 @@
     "start": "node server.js",
     "server": "nodemon server.js",
     "client":"cd 'Contain' && npm start",
-    "heroku-postbuild":"cd 'Contain' && npm install && npm start",
+    "heroku-postbuild":"cd 'Contain' && npm install && npm run build",
     "dev":"concurrently \"npm run server\" \"npm run client\""
 
   },
