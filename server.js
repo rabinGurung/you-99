@@ -12,7 +12,6 @@ app.use((req,res,next)=>{
 
 app.use(bodyParser.json())
 
-
 app.get('/login',(req,res)=>{
     Data = [
         {
